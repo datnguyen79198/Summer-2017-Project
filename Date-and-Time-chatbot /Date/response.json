@@ -1,0 +1,38 @@
+{
+  "id": "5bbfbc64-1527-4e82-8f08-a684554c063e",
+  "timestamp": "2017-09-10T15:14:16.273Z",
+  "lang": "en",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "how many days between today and New Year",
+    "action": "date.between",
+    "actionIncomplete": false,
+    "parameters": {
+      "date-1": "2017-09-10",
+      "date-2": "",
+      "unit": "day"
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "3d9a9ad2-47b1-4de8-908c-398c5b006abd",
+      "webhookUsed": "false",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "date.between"
+    },
+    "fulfillment": {
+      "speech": "",
+      "messages": [
+        {
+          "type": 0,
+          "speech": ""
+        }
+      ]
+    },
+    "score": 0.5899999737739563
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "06142b52-6654-48d4-b1f8-2f2de0db4f6c"
+}

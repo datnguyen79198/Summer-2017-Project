@@ -1,0 +1,249 @@
+{
+  "userSays": [
+    {
+      "id": "0fd9ac85-b907-40f0-bfb5-d9e1296583fb",
+      "data": [
+        {
+          "text": "could you tell me if "
+        },
+        {
+          "text": "Christmas",
+          "alias": "holiday",
+          "meta": "@holiday",
+          "userDefined": true
+        },
+        {
+          "text": " is on "
+        },
+        {
+          "text": "December 25",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3b6288e0-8d74-4063-83b8-26b8e830a08f",
+      "data": [
+        {
+          "text": "check if "
+        },
+        {
+          "text": "Halloween",
+          "alias": "holiday",
+          "meta": "@holiday",
+          "userDefined": true
+        },
+        {
+          "text": " is on "
+        },
+        {
+          "text": "November 30",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        },
+        {
+          "text": " this year"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a75aa044-5671-4504-bff6-5dcbe0d83e22",
+      "data": [
+        {
+          "text": "Mother\u0027s day",
+          "alias": "holiday",
+          "meta": "@holiday",
+          "userDefined": true
+        },
+        {
+          "text": " is on "
+        },
+        {
+          "text": "March 10",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        },
+        {
+          "text": " right"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "22842f94-ff5f-4c1a-a372-1dcc468dccce",
+      "data": [
+        {
+          "text": "tell me if "
+        },
+        {
+          "text": "December 24",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        },
+        {
+          "text": " is "
+        },
+        {
+          "text": "Christmas",
+          "alias": "holiday",
+          "meta": "@holiday",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5e64847b-9aa7-43f7-80dd-e87e6486a375",
+      "data": [
+        {
+          "text": "is "
+        },
+        {
+          "text": "Columbus Day",
+          "alias": "holiday",
+          "meta": "@holiday",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "tomorrow",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4bedcac9-83ea-41db-a754-2fc51075a124",
+      "data": [
+        {
+          "text": "is "
+        },
+        {
+          "text": "Thanksgiving",
+          "alias": "holiday",
+          "meta": "@holiday",
+          "userDefined": false
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "November 24",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eb467b4b-d6d1-4f47-8eaf-58ecc78d1640",
+      "data": [
+        {
+          "text": "is "
+        },
+        {
+          "text": "New Year",
+          "alias": "holiday",
+          "meta": "@holiday",
+          "userDefined": false
+        },
+        {
+          "text": " celebrated on the "
+        },
+        {
+          "text": "1st of January",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "23f175ee-e6be-4e94-90d9-64fe19e6cbc6",
+      "data": [
+        {
+          "text": "is "
+        },
+        {
+          "text": "it",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Christmas",
+          "alias": "holiday",
+          "meta": "@holiday",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "today",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "87090fcc-1b70-4989-a35a-f63db6f0f58b",
+  "name": "date.holiday.check",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "date.holiday.check",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date"
+        },
+        {
+          "dataType": "@holiday",
+          "name": "holiday",
+          "value": "$holiday"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

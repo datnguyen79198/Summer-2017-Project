@@ -1,0 +1,294 @@
+{
+  "userSays": [
+    {
+      "id": "82b8119c-264c-4637-b93d-46820034a882",
+      "data": [
+        {
+          "text": "could you set today\u0027s date to "
+        },
+        {
+          "text": "January 7th",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9690f2c7-e3f8-43e6-88d0-7c69b4d979db",
+      "data": [
+        {
+          "text": "today is "
+        },
+        {
+          "text": "October 20",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Wednesday",
+          "alias": "dayofweek",
+          "meta": "@dayofweek",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "00274af0-1101-430b-b20f-65f821a0e6b8",
+      "data": [
+        {
+          "text": "change today\u0027s date to "
+        },
+        {
+          "text": "31 December",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9d04f324-8ec4-4a8b-85f5-8e7631cbd290",
+      "data": [
+        {
+          "text": "set the date "
+        },
+        {
+          "text": "June 5th",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "227a2a66-f1c5-4bbe-a4dc-c9a618b0319d",
+      "data": [
+        {
+          "text": "I",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " want "
+        },
+        {
+          "text": "to",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " set the "
+        },
+        {
+          "text": "date",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "05660a59-8fca-40f2-a07f-739c3aa241db",
+      "data": [
+        {
+          "text": "can",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "I",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " set another date"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fa6f6352-5c03-4c76-a107-bc5ed3a69bb0",
+      "data": [
+        {
+          "text": "I",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "\u0027"
+        },
+        {
+          "text": "d",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "like",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "to",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "edit",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "date",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "454768f9-cfce-4406-b01a-06a3222d77ec",
+      "data": [
+        {
+          "text": "can",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "I",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " change "
+        },
+        {
+          "text": "the date",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e1becda8-13ca-4af1-aabd-a37bd20100da",
+      "data": [
+        {
+          "text": "set date"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7ed1d123-ccbb-45a9-9434-b8b7f4867a94",
+      "data": [
+        {
+          "text": "today",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " is "
+        },
+        {
+          "text": "May 4th",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b2adf464-5bb3-4522-b54b-b2abed8b86f5",
+      "data": [
+        {
+          "text": "it",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "\u0027s "
+        },
+        {
+          "text": "Friday",
+          "alias": "dayofweek",
+          "meta": "@dayofweek",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "159bcac8-ef44-4967-99b9-ecfe3cc9d290",
+  "name": "date.set",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "date.set",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date"
+        },
+        {
+          "dataType": "@dayofweek",
+          "name": "dayofweek",
+          "value": "$dayofweek"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

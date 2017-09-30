@@ -1,0 +1,283 @@
+{
+  "userSays": [
+    {
+      "id": "666093cf-d82f-4945-b819-edfe3578ab91",
+      "data": [
+        {
+          "text": "how many "
+        },
+        {
+          "text": "days",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " are there between "
+        },
+        {
+          "text": "Christmas",
+          "alias": "holiday-1",
+          "meta": "@holiday",
+          "userDefined": true
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "New Year",
+          "alias": "holiday-2",
+          "meta": "@holiday",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b6d2a716-99f8-4d89-b465-3709d72d88a2",
+      "data": [
+        {
+          "text": "how many "
+        },
+        {
+          "text": "weeks",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " between "
+        },
+        {
+          "text": "Independence Day",
+          "alias": "holiday-1",
+          "meta": "@holiday",
+          "userDefined": true
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "Easter",
+          "alias": "holiday-2",
+          "meta": "@holiday",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4271eb1e-5339-42ed-b7dd-202eb01d6d44",
+      "data": [
+        {
+          "text": "number of "
+        },
+        {
+          "text": "hours",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " between "
+        },
+        {
+          "text": "Columbus Day",
+          "alias": "holiday-1",
+          "meta": "@holiday",
+          "userDefined": true
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "Veterans Day",
+          "alias": "holiday-2",
+          "meta": "@holiday",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8e836ff5-e40e-4e35-8d6a-b6c7f5c42a64",
+      "data": [
+        {
+          "text": "calculate the number of "
+        },
+        {
+          "text": "seconds",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " between "
+        },
+        {
+          "text": "Thanksgiving",
+          "alias": "holiday-1",
+          "meta": "@holiday",
+          "userDefined": true
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "Halloween",
+          "alias": "holiday-2",
+          "meta": "@holiday",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ab8d7210-d3cd-4057-808d-e2640b7d7e77",
+      "data": [
+        {
+          "text": "tell me how many "
+        },
+        {
+          "text": "months",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " are between "
+        },
+        {
+          "text": "Independence Day",
+          "alias": "holiday-1",
+          "meta": "@holiday",
+          "userDefined": true
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "Valentine\u0027s Day",
+          "alias": "holiday-2",
+          "meta": "@holiday",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2ebb22cf-73c8-4f29-8c7e-9ac88e7043a0",
+      "data": [
+        {
+          "text": "count the "
+        },
+        {
+          "text": "days",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " between "
+        },
+        {
+          "text": "Columbus Day",
+          "alias": "holiday-1",
+          "meta": "@holiday",
+          "userDefined": true
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "Christmas",
+          "alias": "holiday-2",
+          "meta": "@holiday",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b227b129-c77d-4fac-bb2a-2e8c88cd8ddf",
+      "data": [
+        {
+          "text": "check how many "
+        },
+        {
+          "text": "weeks",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " are there between "
+        },
+        {
+          "text": "Halloween",
+          "alias": "holiday-1",
+          "meta": "@holiday",
+          "userDefined": true
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "New Year",
+          "alias": "holiday-2",
+          "meta": "@holiday",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d2296efa-2dc5-4982-9955-8d3da58f3292",
+  "name": "date.holiday.between",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "date.holiday.between",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@holiday",
+          "name": "holiday-1",
+          "value": "$holiday-1",
+          "isList": false
+        },
+        {
+          "dataType": "@holiday",
+          "name": "holiday-2",
+          "value": "$holiday-2"
+        },
+        {
+          "dataType": "@unit-time",
+          "name": "unit",
+          "value": "$unit",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,165 @@
+{
+  "userSays": [
+    {
+      "id": "ecc192d4-5bb2-4ba4-afd7-bd479b7c9cb7",
+      "data": [
+        {
+          "text": "next Friday",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dbe81110-475e-4f18-9c20-380c238ee2a6",
+      "data": [
+        {
+          "text": "what about "
+        },
+        {
+          "text": "Monday",
+          "alias": "dayofweek",
+          "meta": "@dayofweek",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b84d59d0-f67b-46b8-90e3-f3756c7b6b0f",
+      "data": [
+        {
+          "text": "and "
+        },
+        {
+          "text": "Tuesday",
+          "alias": "dayofweek",
+          "meta": "@dayofweek",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "be458bd9-2791-48a4-96bf-2281ca9feabc",
+      "data": [
+        {
+          "text": "now "
+        },
+        {
+          "text": "Wednesday",
+          "alias": "dayofweek",
+          "meta": "@dayofweek",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6a8aadeb-9056-4d59-98ed-7800a0083729",
+      "data": [
+        {
+          "text": "how about "
+        },
+        {
+          "text": "Thursday",
+          "alias": "dayofweek",
+          "meta": "@dayofweek",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1ee67388-f2ad-4d81-b542-d1ab8600e499",
+      "data": [
+        {
+          "text": "could you check it for "
+        },
+        {
+          "text": "tomorrow",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "76bbab7c-99ca-4920-91f9-baeb5c35cf9b",
+      "data": [
+        {
+          "text": "and "
+        },
+        {
+          "text": "in a week",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7485f86e-2edd-4b49-b7eb-58c6cf3268a8",
+      "data": [
+        {
+          "text": "what about a "
+        },
+        {
+          "text": "month later",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "856382d2-d1a6-4309-aba3-bab311430e3d",
+  "name": "date.get - context:date-get",
+  "auto": true,
+  "contexts": [
+    "date-get"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "date.get",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date"
+        },
+        {
+          "dataType": "@dayofweek",
+          "name": "dayofweek",
+          "value": "$dayofweek"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,239 @@
+{
+  "userSays": [
+    {
+      "id": "58eb3b51-9763-409f-8aef-c8122425143f",
+      "data": [
+        {
+          "text": "could you check "
+        },
+        {
+          "text": "Paris",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": true
+        },
+        {
+          "text": " now"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e308a31b-2953-455b-b5f9-862a523c3225",
+      "data": [
+        {
+          "text": "and in "
+        },
+        {
+          "text": "London",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8023967e-d90d-4f77-8995-f7aa7a166a01",
+      "data": [
+        {
+          "text": "now "
+        },
+        {
+          "text": "New York",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0d7560ec-3aa0-4f42-9fd4-12e572ec2906",
+      "data": [
+        {
+          "text": "in "
+        },
+        {
+          "text": "Moscow",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": true
+        },
+        {
+          "text": " too"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8ce80b91-d7c7-4fd6-a122-dbd44af66fba",
+      "data": [
+        {
+          "text": "what about "
+        },
+        {
+          "text": "Munich",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0e04cf6c-612b-4750-9686-412beabb8338",
+      "data": [
+        {
+          "text": "check "
+        },
+        {
+          "text": "Madrid",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": true
+        },
+        {
+          "text": " as well"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a2f05bfa-b4c5-485c-a352-9dfae1adf582",
+      "data": [
+        {
+          "text": "Tokyo",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2f48f017-6832-4457-9d9a-e973959b187a",
+      "data": [
+        {
+          "text": "check "
+        },
+        {
+          "text": "Prague",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9d525cd9-e6c8-4e98-a9cd-d63f28ec3110",
+      "data": [
+        {
+          "text": "in "
+        },
+        {
+          "text": "Vienna",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": true
+        },
+        {
+          "text": " now"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "32c473bb-8a6b-485a-8d69-8efa7711e6a8",
+      "data": [
+        {
+          "text": "can you check "
+        },
+        {
+          "text": "Glasgow",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": true
+        },
+        {
+          "text": " too"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1aca05ff-e010-4fee-bc1a-8425e2a51001",
+      "data": [
+        {
+          "text": "how about "
+        },
+        {
+          "text": "Hong Kong",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ee016af8-88a8-458a-a138-9920b8be5233",
+      "data": [
+        {
+          "text": "can you check it for "
+        },
+        {
+          "text": "Toronto",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6a7431ff-0439-40c1-b4a7-61b9a8d89def",
+  "name": "date.check - context:date-check",
+  "auto": true,
+  "contexts": [
+    "date-check"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "date.check",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@sys.location",
+          "name": "location",
+          "value": "$location"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

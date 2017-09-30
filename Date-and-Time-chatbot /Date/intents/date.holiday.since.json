@@ -1,0 +1,165 @@
+{
+  "userSays": [
+    {
+      "id": "9ebee42f-a2d8-4d17-b9f7-989bb8727a3b",
+      "data": [
+        {
+          "text": "what\u0027s the number of "
+        },
+        {
+          "text": "days",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " since "
+        },
+        {
+          "text": "Thanksgiving",
+          "alias": "holiday",
+          "meta": "@holiday",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "464535a1-f12b-4f48-a9a5-c1a84d2a430c",
+      "data": [
+        {
+          "text": "do you know how many "
+        },
+        {
+          "text": "months",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " passed after "
+        },
+        {
+          "text": "Easter",
+          "alias": "holiday",
+          "meta": "@holiday",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f7af442e-29c8-404f-a548-55eb33c7b541",
+      "data": [
+        {
+          "text": "number of "
+        },
+        {
+          "text": "days",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " since "
+        },
+        {
+          "text": "Christmas",
+          "alias": "holiday",
+          "meta": "@holiday",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fe471bd9-4985-4cdc-b5ec-60717734ec35",
+      "data": [
+        {
+          "text": "tell me how many "
+        },
+        {
+          "text": "months",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " after "
+        },
+        {
+          "text": "St Patrick\u0027s Day",
+          "alias": "holiday",
+          "meta": "@holiday",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "adfc8891-cf08-440e-ad97-62bb0d4bba9a",
+      "data": [
+        {
+          "text": "how many "
+        },
+        {
+          "text": "days",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " passed after "
+        },
+        {
+          "text": "New Year",
+          "alias": "holiday",
+          "meta": "@holiday",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2d24b9b4-e0f2-4e28-9960-e3f5bbb49243",
+  "name": "date.holiday.since",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "date.holiday.since",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@unit-time",
+          "name": "unit",
+          "value": "$unit",
+          "isList": false
+        },
+        {
+          "dataType": "@holiday",
+          "name": "holiday",
+          "value": "$holiday",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

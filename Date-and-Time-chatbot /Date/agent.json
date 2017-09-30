@@ -1,0 +1,36 @@
+{
+  "description": "This agent lets your app users ask about the current data, calculate between dates, determine how many days until another date, etc.",
+  "language": "en",
+  "shortDescription": "Date calculator and holiday lookup",
+  "examples": "User: Do you know what day it is?\nUser: What date is next Friday?\nUser: How long until Thanksgiving?\nUser: What is the date of Columbus day in 2015?\nUser: How long until Christmas?\nUser: When is Thanksgiving this year?",
+  "displayName": "Date",
+  "activeAssistantAgents": [
+    "smalltalk-domain-on",
+    "smalltalk-fulfillment-on"
+  ],
+  "googleAssistant": {
+    "googleAssistantCompatible": false,
+    "project": "date-7b189",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [],
+    "systemIntents": [],
+    "endIntentIds": [],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2"
+  },
+  "defaultTimezone": "America/New_York",
+  "webhook": {
+    "available": false,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.instead",
+  "mlMinConfidence": 0.3
+}
